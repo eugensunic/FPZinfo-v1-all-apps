@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.esuniceesunic.fpzinfo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logos"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BrzoTrazenjeprof"
+            android:label="@string/title_activity_brzo_trazenjeprof" >
+        </activity>
+        <activity
+            android:name=".Slobodneucionice"
+            android:label="@string/title_activity_slobodneucionice" >
+        </activity>
+        <activity
+            android:name=".Kalendarfpz"
+            android:label="@string/title_activity_kalendarfpz" >
+        </activity>
+        <activity
+            android:name=".WebReader"
+            android:label="@string/title_activity_web_reader" >
+        </activity>
+        <activity
+            android:name=".Autobus_zet"
+            android:label="@string/title_activity_autobus_zet" >
+        </activity>
+        <activity
+            android:name=".Glavnastranica"
+            android:label="@string/title_activity_glavnastranica" >
+        </activity>
+    </application>
+
+</manifest>

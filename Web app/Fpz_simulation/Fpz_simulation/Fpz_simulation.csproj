@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC8483D8-6851-43BF-BB3C-B39B4A18AF0D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fpz_simulation</RootNamespace>
+    <AssemblyName>Fpz_simulation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.123, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Ajax-Autocomplete\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Alg_pro.html" />
+    <Content Include="Alg_pronerijeseni.html" />
+    <Content Include="Dvorane.aspx" />
+    <Content Include="Fpz_materjali.html" />
+    <Content Include="Fpz_materjali\dsc04957.jpg" />
+    <Content Include="Fpz_materjali\mks1 001.jpg" />
+    <Content Include="Fpz_materjali\mks2 001.jpg" />
+    <Content Include="Fpz_materjali\rajic sva pitanja moguca.jpg" />
+    <Content Include="Fpz_materjali\rajic1.jpg" />
+    <Content Include="Fpz_materjali\rajic2.jpg" />
+    <Content Include="Fpz_materjali\rajic3.jpg" />
+    <Content Include="Fpz_materjali\rajic4.jpg" />
+    <Content Include="Fpz_materjali\rajic5.jpg" />
+    <Content Include="Fpz_materjali\rajic6.jpg" />
+    <Content Include="Fpz_materjali\ttkp.jpg" />
+    <Content Include="Fpz_materjali\ttkp2.jpg" />
+    <Content Include="Fpz_materjali\ttkp3.jpg" />
+    <Content Include="Fpz_materjali\ttkp4.jpg" />
+    <Content Include="Fpz_materjali\ttkp5.jpg" />
+    <Content Include="Fpz_materjali\ttkp6.jpg" />
+    <Content Include="Fpz_materjali\ttkp7.jpg" />
+    <Content Include="Images\Actions-go-previous-icon.png" />
+    <Content Include="Images\akademski.png" />
+    <Content Include="Images\Android-Phone-Grey-Color-Background-HD.jpg" />
+    <Content Include="Images\back-icon.png" />
+    <Content Include="Images\Background.jpg" />
+    <Content Include="Images\female_available.png" />
+    <Content Include="Images\male_available.png" />
+    <Content Include="Images\none.jpg" />
+    <Content Include="Images\pozadina_pic.jpg" />
+    <Content Include="Images\unavailable.png" />
+    <Content Include="Default.aspx" />
+    <Content Include="Kalendar.html" />
+    <Content Include="Menza_raspored.aspx" />
+    <Content Include="Mks.html" />
+    <Content Include="Raspored_sati.aspx" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="StyleSheet2.css" />
+    <Content Include="Text_File\Caviceva_Kampus.txt" />
+    <Content Include="Text_File\Kampus_Caviceva.txt" />
+    <Content Include="Text_File\Kampus_Kvatric.txt" />
+    <Content Include="Text_File\Kvatric_Kampus.txt" />
+    <Content Include="ttkp_stranica.html" />
+    <Content Include="Vozni_red.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WebService1.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dtime.cs" />
+    <Compile Include="Dvorane.aspx.cs">
+      <DependentUpon>Dvorane.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dvorane.aspx.designer.cs">
+      <DependentUpon>Dvorane.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menza_raspored.aspx.cs">
+      <DependentUpon>Menza_raspored.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menza_raspored.aspx.designer.cs">
+      <DependentUpon>Menza_raspored.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Raspored_sati.aspx.cs">
+      <DependentUpon>Raspored_sati.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Raspored_sati.aspx.designer.cs">
+      <DependentUpon>Raspored_sati.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vozni_red.aspx.cs">
+      <DependentUpon>Vozni_red.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vozni_red.aspx.designer.cs">
+      <DependentUpon>Vozni_red.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebService1.asmx.cs">
+      <DependentUpon>WebService1.asmx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10260/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

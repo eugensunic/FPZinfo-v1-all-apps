@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+
+<style>
+
+body      {background-image:url('Images/pozadina_pic.jpg');
+           background-size:cover;  
+           background-repeat:no-repeat;
+          }
+		  
+		  
+#first     {top:15px;        /*first div tag*/
+	       left:15cm;
+		   position:relative;
+		   
+		  }
+#firstdiv                         /*to je ovaj crveni blok*/
+             {
+              width:20cm;
+              height:100cm;
+              background-color:brown;  
+			  border-radius:10px;
+              box-shadow: 10px 10px 10px #888888;
+			  position:fixed;
+              top:140px;
+              left:13.6cm;
+			  z-index:-10;
+			
+			
+			 
+              }
+
+           
+
+		
+nav ul    {
+           padding:0px 10px;
+		   display:inline-table;
+		   list-style:none;
+		   border-radius:10px;
+		   position:relative;
+		   background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	       background: -moz-linear-gradient(top, #efefef 30%, #bbbbbb 100%); 
+	       background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+		   
+		   }
+nav ul:after
+            {
+             content:""
+			 clear:both;
+			 display:block;
+			 } /* clears the formating after ul, in order to reset the floating etc..*/
+
+
+		
+nav ul ul {display:none;}
+
+nav ul li{float:left;
+          padding:25px 0px;
+		  
+		 }
+
+nav ul li a{ 
+             padding:45px 20px;
+			 color:blue
+			 display:block;
+			 text-decoration:none;
+			 }
+			
+nav ul li:hover{
+                background:grey;
+                width:300;
+				border-radius:4px;
+				
+                }
+
+nav ul ul {background:#D4D4FF;
+           padding:0px;
+           position:absolute;
+		   top:100%;
+           border-radius:10px;
+           transition:width 1s;
+		  -webkit-transition:width 1s;		   
+           }
+			
+nav ul li:hover> ul   /*the li hovers have childs ul so this is ok*/
+ {      display:block;
+       
+                 }
+nav ul ul li
+            {float:none;
+             border-top:1px solid black;
+			 border-bottom:1px solid black;
+			 padding:20px;
+			 border-radius:3px;}
+			 
+@keyframes myfirst   /*valjda svi ostali*/
+{
+from {background: 	#FF4747;}
+to {background: #8383AC;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {background: 	#FF4747;}
+to {background:	#8383AC;}
+} 
+
+nav ul ul li:hover
+                   {
+				   background:		#8383AC; 
+                   animation: myfirst 0.6s;
+				   -webkit-animation: myfirst 0.6s;
+                   border-bottom:1px solid black;
+				   }
+nav ul ul ul {                                      
+	position: absolute; 
+	left: 100%; 
+	top:0;
+	padding:0px 0px;
+	
+	
+}		
+nav ul ul ul li
+            {float:none;
+             border-top:1px solid black;
+			 border-bottom:1px solid black;
+			 padding:10px;
+			 border-radius:0px;}
+
+	  
+				  
+
+
+
+</style>
+</head>
+<body>
+<div id="first">
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li>|<a href="#">Prva godina</a>
+             <ul>
+			     <li><a href="Page.html">Matematika1</a></li>
+				 <li><a href="#">Matematika2</a></li>
+				 <li><a href="#">Fizika</a></li>
+				 <li><a href="#">Računalstvo</a></li>
+				 <li><a href="#">Elektrotehnika</a></li>
+				 <li><a href="#">Fizika</a></li>
+			 </ul>
+			 </li>
+			 
+<li>|<a href="#">Druga godina</a>
+             <ul>
+			     <li><a href="#">Mehanika1</a></li>
+				 <li><a href="#">Mehanika2</a></li>
+				 <li><a href="Alg_pro.html">Algoritmi i programiranje</a></li>
+				 <li><a href="#">Vjerojatnost i statistika</a></li>
+				 <li><a href="#">Ekonomika</a></li>
+			 </ul>
+			 </li>
+<li>|<a href="#">Treca godina</a>
+             <ul>
+			     <li><a href="Page.html">Cestovni smjer</a>
+				 <ul>
+				    <li><a href="#">Cestovne prometnice</a></li>
+				    <li><a href="#">Integralni i intermodalni</a></li>
+				    <li><a href="#">TCP</a></li>
+				 
+				 </ul>
+				 </li>
+				
+				 <li><a href="#">IKP</a>
+				  <ul>
+				    <li><a href="ttkp_stranica.html">TTKP</a></li>
+				    <li><a href="#">Baze Podataka</a></li>
+				    <li><a href="Mks.html">MKS(Markežić)</a></li>
+					</li>
+				 
+				 </ul>
+				 <li><a href="#">Zračni smjer</a></li>
+				 <li><a href="#">Gradski smjer</a></li>
+			 </ul>
+			 </li>
+<li>|<a href="#">Kontakt</a></li>
+<li>|<a href="#">O stranici</a></a></li>
+
+</ul>
+</nav>
+</div>
+<div id="firstdiv">
+<blockquote>
+<p><h2>Aktivni linkovi:</h2></p>
+<p><h3>INTERMODALNI</h3></p>
+<p><h3>ALGORITMI I PROGRAMIRANJE</h3></p>
+<p><h3>MKS(MARKEZIĆ)</h3></p>
+<p><h3>TTKP(MRVELJ)</h3></p>
+</blockquote>
+
+</div>
+
+</body>
+
+</html>

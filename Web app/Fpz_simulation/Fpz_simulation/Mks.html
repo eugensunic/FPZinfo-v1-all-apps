@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Tehnologija telekomunikacijskog prometa</title>
+<style>
+body {
+    text-align: center;
+    background-image:url(pozadina_pic.jpg);
+           background-size:cover;  
+           background-repeat:no-repeat;
+     }
+#images {      /*div element */
+  width: 800px;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto;
+}
+#images img {
+  width: 800px;
+  height: 800px;
+  
+  position: absolute;
+  top: 0;
+  left: -400px;
+  z-index: 1;
+  opacity: 0;
+  
+  transition: all linear 550ms;
+  -o-transition: all linear 500ms;
+  -moz-transition: all linear 500ms;
+  -webkit-transition: all linear 500ms;
+}
+#images img:target {
+  left: 0;
+  z-index: 9;
+  opacity: 1;
+                    }
+#images img:first-child {
+  left: 0;
+  opacity: 1;
+}
+#slider a {
+  text-decoration: none;
+  background: black;
+  border: 1px solid #C6E4F2;
+  padding: 4px 6px;
+  color: #222;
+}
+#slider a:hover {
+  background: #C6E4F2;
+}
+</style>
+</head>
+
+<body>
+<div id="images">
+  <img id="image1" src="Fpz_materjali/mks1 001.jpg" />
+  <img id="image2" src="Fpz_materjali/mks2 001.jpg" />
+  
+</div>
+<div id="slider">
+  <a href="#image1">1</a>
+  <a href="#image2">2</a>
+  
+</div>
+</body>
+
+
+
+</html>
+<!-- Hosting24 Analytics Code -->
+<script type="text/javascript" src="http://stats.hosting24.com/count.php"></script>
+<!-- End Of Analytics Code -->

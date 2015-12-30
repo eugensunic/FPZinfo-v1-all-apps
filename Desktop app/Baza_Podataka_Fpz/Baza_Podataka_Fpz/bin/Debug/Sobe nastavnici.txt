@@ -1,0 +1,149 @@
+soba broj P-1, prizemlje, Borongaj, obj. 70
+soba broj 1-11, 1. kat, Borongaj, obj. 70
+soba broj P-6, prizemlje, Borongaj, obj. 71
+soba broj PDS referada, prizemlje, Kušlanova 2
+soba broj P-7, prizemlje, Borongaj, obj. 71
+nema sobe
+soba broj P-4, prizemlje, Borongaj, obj. 71
+soba broj 1-6, 1. kat, Borongaj, obj. 70
+soba broj P-15, 1. kat, Borongaj, obj. 71
+soba broj 2.4, 2. kat, Vukeliæeva 4
+soba broj P-1, prizemlje, Borongaj, obj. 70
+soba broj P-10, prizemlje, Borongaj, obj. 70
+soba broj 2.3, 2. kat, Vukeliæeva 4
+soba broj P-7, prizemlje, Borongaj, obj. 71
+soba broj Laboratorij ZŽP, razina -1, Borongaj, obj. 71
+soba broj P-10, prizemlje, Borongaj, obj. 70
+soba broj 2.10, 2. kat, Vukeliæeva 4
+soba broj P-2, prizemlje, Borongaj, obj. 71
+soba broj P-9, prizemlje, Borongaj, obj. 71
+soba broj 1-8, 1. kat, Borongaj, obj. 70
+soba broj 2.6, 2. kat, Vukeliæeva 4
+soba broj P-8, prizemlje, Borongaj, obj. 71
+soba broj P-12, 1. kat, Borongaj, obj. 71
+soba broj P-12, 1. kat, Borongaj, obj. 71
+soba broj P-2, prizemlje, Borongaj, obj. 70
+soba broj 0.9, prizemlje, Vukeliæeva 4
+soba broj 1.5, 1. kat, Vukeliæeva 4
+soba broj 1-2, 1. kat, Borongaj, obj. 70
+soba broj 2.6, 2. kat, Vukeliæeva 4
+soba broj P-24, 1. kat, Borongaj, obj. 71
+soba broj 1-13, 1. kat, Borongaj, obj. 70
+soba broj 1-1, 1. kat, Borongaj, obj. 70
+soba broj 2.14, 2. kat, Vukeliæeva 4
+soba broj P-24, 1. kat, Borongaj, obj. 71
+soba broj P-12, 1. kat, Borongaj, obj. 71
+soba broj 2.13, 2. kat, Vukeliæeva 4
+soba broj P-13, 1. kat, Borongaj, obj. 71
+soba broj P-8, prizemlje, Borongaj, obj. 70
+soba broj P-3, prizemlje, Borongaj, obj. 71
+soba broj P-11, 1. kat, Borongaj, obj. 71
+soba broj P-18, 1. kat, Borongaj, obj. 71
+soba broj 2.12, 2. kat, Vukeliæeva 4
+soba broj 2.11, 2. kat, Vukeliæeva 4
+soba broj P-21, 1. kat, Borongaj, obj. 71
+soba broj 1-4, 1. kat, Borongaj, obj. 70
+soba broj 2.3, 2. kat, Vukeliæeva 4
+soba broj 0.1, prizemlje, Vukeliæeva 4
+soba broj P-3, prizemlje, Borongaj, obj. 70
+soba broj P-8, prizemlje, Borongaj, obj. 71
+soba broj P-18, 1. kat, Borongaj, obj. 71
+soba broj 2.12, 2. kat, Vukeliæeva 4
+soba broj 1-13, 1. kat, Borongaj, obj. 70
+soba broj P-10, 1. kat, Borongaj, obj. 71
+soba broj P-26, 1. kat, Borongaj, obj. 71
+soba broj 1-11, 1. kat, Borongaj, obj. 70
+soba broj 0.08, razina -1, Vukeliæeva 4
+soba broj P-6, prizemlje, Borongaj, obj. 70
+soba broj 1-4, 1. kat, Borongaj, obj. 70
+soba broj P-4, prizemlje, Borongaj, obj. 71
+nema sobe
+soba broj P-25, 1. kat, Borongaj, obj. 71
+soba broj 0.3, prizemlje, Vukeliæeva 4
+soba broj P-21, 1. kat, Borongaj, obj. 71
+soba broj 0.7, prizemlje, Vukeliæeva 4
+soba broj 1-3, 1. kat, Borongaj, obj. 70
+soba broj P-23, 1. kat, Borongaj, obj. 71
+soba broj 0.06, razina -1, Vukeliæeva 4
+soba broj P-11, prizemlje, Borongaj, obj. 70
+soba broj 2.4, 2. kat, Vukeliæeva 4
+soba broj 2.9, 2. kat, Vukeliæeva 4
+soba broj 2.16, 2. kat, Vukeliæeva 4
+soba broj P-10, prizemlje, Borongaj, obj. 70
+soba broj P-13, prizemlje, Borongaj, obj. 70
+soba broj P-6, prizemlje, Borongaj, obj. 70
+soba broj P-23, 1. kat, Borongaj, obj. 71
+soba broj P-8, prizemlje, Borongaj, obj. 70
+soba broj P-11, 1. kat, Borongaj, obj. 71
+soba broj 1-9, 1. kat, Borongaj, obj. 70
+soba broj P-1, prizemlje, Borongaj, obj. 71
+soba broj 0.06, razina -1, Vukeliæeva 4
+soba broj P-9, prizemlje, Borongaj, obj. 71
+soba broj 1.53, 1. kat, Vukeliæeva 4
+soba broj 1-10, 1. kat, Borongaj, obj. 70
+soba broj P-15, 1. kat, Borongaj, obj. 71
+soba broj P-14, 1. kat, Borongaj, obj. 71
+soba broj P-2, prizemlje, Borongaj, obj. 70
+soba broj P-4, prizemlje, Borongaj, obj. 71
+soba broj P-9, prizemlje, Borongaj, obj. 70
+soba broj 1-12, 1. kat, Borongaj, obj. 70
+soba broj P-10, 1. kat, Borongaj, obj. 71
+soba broj 1-12, 1. kat, Borongaj, obj. 70
+soba broj P-6, prizemlje, Borongaj, obj. 71
+soba broj P-3, prizemlje, Borongaj, obj. 71
+soba broj P-14, 1. kat, Borongaj, obj. 71
+soba broj P-5, prizemlje, Borongaj, obj. 71
+soba broj P-7, prizemlje, Borongaj, obj. 71
+soba broj 2.14, 2. kat, Vukeliæeva 4
+soba broj 2.14, 2. kat, Vukeliæeva 4
+soba broj 2.8, 2. kat, Vukeliæeva 4
+soba broj 1-1, 1. kat, Borongaj, obj. 70
+soba broj P-6, prizemlje, Borongaj, obj. 71
+soba broj P-9, prizemlje, Borongaj, obj. 70
+soba broj P-13, prizemlje, Borongaj, obj. 70
+soba broj P-2, prizemlje, Borongaj, obj. 71
+soba broj 2.15, 2. kat, Vukeliæeva 4
+soba broj P-5, prizemlje, Borongaj, obj. 71
+soba broj 1.52, 1. kat, Vukeliæeva 4
+soba broj PTV laboratorij, razina -1, Borongaj, obj. 71
+soba broj P-6, prizemlje, Borongaj, obj. 71
+soba broj P-13, 1. kat, Borongaj, obj. 71
+soba broj 2.7, 2. kat, Vukeliæeva 4
+soba broj 2.8, 2. kat, Vukeliæeva 4
+soba broj P-22, 1. kat, Borongaj, obj. 71
+soba broj 0.1, prizemlje, Vukeliæeva 4
+soba broj P-12, prizemlje, Borongaj, obj. 70
+soba broj 2.7, 2. kat, Vukeliæeva 4
+soba broj 0.08, razina -1, Vukeliæeva 4
+soba broj P-7, prizemlje, Borongaj, obj. 70
+soba broj 1-10, 1. kat, Borongaj, obj. 70
+soba broj P-11, prizemlje, Borongaj, obj. 70
+soba broj 2.13, 2. kat, Vukeliæeva 4
+soba broj P-26, 1. kat, Borongaj, obj. 71
+soba broj P-3, prizemlje, Borongaj, obj. 70
+soba broj PTV laboratorij, razina -1, Borongaj, obj. 71
+soba broj P-1, prizemlje, Borongaj, obj. 71 za ÐEeve
+soba broj 2.15, 2. kat, Vukeliæeva 4
+soba broj P-16, 1. kat, Borongaj, obj. 71 forenbacher
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+Inženjerska grafika i dokumentiranje	
+Engleski jezik 1
+Engleski jezik2
+Njemaèki jezik1
+Njemaèki jezik2
+Engleski jezik3
+Engleski jezik4
+Njemaèki jezik3
+Njemaèki jezik4
+Matematika I	
+Tjelesna kultura (1/2)	
+Raèunalstvo	
+Fizika	
+Elektrotehnika	
+Matematika II	
+Tjelesna kultura (2/2)	
+Osnove prometnog inženjerstva	
+Osnove tehnologije prometa	
+Informacije i komunikacije	
+Mehanika I	
+Ekologija u prometu	
+Osnove prometne infrastrukture	
+Tjelesna kultura 1	
+Vjerojatnost i statistika	
+Mehanika II		
+Tjelesna kultura 2	
+Algoritmi i programiranje
+Strojarstvo
+Elektronièki sklopovi i raèunala
+Arhitektura telekomunikacijske mreže
+Baze podataka
+Tehnologija telekomunikacijskog prometa 
+Raèunalne mreže
+Terminalni ureðaji
+Mobilni komunikacijski sustavi
+Održavanje telematièkih sustava
+Informacijsksi sustavi mrežnih operatera
+Cestovne prometnice 1
+Integralni i intermodalni
+Cestovna prjevozna sredstva
+Sigurnost cestovnog i gradskog prometa
+Odrzavanje cestovnih vozila
+Špedicija
+Tehnologija cestovnog prometa
+Poznavanje robe
+Prekrcajna mehanizacija
+Prometna geografija
+Prometna medicina
+Prijevozna sredstva
+Poštanska mreža
+Poštanski sustavi
+Automatizacija poštanskog prometa
+Špedicija
+Tehnologija poštanskog prometa 1
+Tehnologija kurirskih procesa
+Osnove tehnologije zraènog prometa
+Engleski jezik za zraèni promet1
+Osnove tehnike zraènog prometa
+Tehnologija prihvata i otpreme zrakoplova
+Engleski jezik za zraèni promet 2
+Tehnologija prihvata i otpreme putnika i prtljage
+Komunikacijski, navigacijski i nadzorni sustavi
+Tehnologija prihvata i optreme tereta i pošte
+Aerodromi
+Cestovna telematika
+Raèunalna sigurnost
+Optimizacija prometnih procesa
+Automatsko upravljanje u prometu i transportu
+Lokacijski i navigacijski sustavi
+Inteligentni transportni sustavi 1
+Arhitektura inteligentnih transportnih sustava
+Upravljanje incidentnim situacijama u prometu
+Planiranje logistièkih procesa
+Simulacija u prometu
+Tehnièka logistika
+Upravljanje zalihama
+Robno transportni centri
+Plovna sredstva
+Plovni putevi
+Tehnika u vodnom prometu 1
+Sustavni u vodnom prometu
+Luke
+Vozila za javni gradski prijevoz
+Gradske prometnice
+Tehnologija gradskog prometa 1
+Održavanje vozila javnog gradskog prijevoza
+Sigunorst cestovnog i gradskog prometa 1 -- duplo
+Tehnologija gradskog prometa 2
+Željeznièka vozila
+Tehnološki procesi u željeznièkom prometu
+Organiziranje željeznièkog prometa
+Signalizacija u želejznièkom prometu
+Željeznièka infrastruktura 1
+Planiranje i upravljanje u željeznièkom prometu
+Vuèa vlakova
+

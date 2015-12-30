@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FPZinfo</string>
+    <string name="hello_world"></string>
+    <string name="action_settings">Settings</string>
+    <string name="pocetna_stranica">Početna stranica</string>
+    <string name="profesor_info">Profesor info</string>
+    <string name="slobodne_ucionice">Slobodne učioncie</string>
+    <string name="menza">Menza(jelovnik)</string>
+    <string name="brzo_pretrazivanje">Brzo pretraživanje (prof.)</string>
+    <string name="kalendar">Ak.kalendar</string>
+    <string name="title_activity_brzo_trazenjeprof">Brzo pretraživanje (profesor)</string>
+    <string name="title_activity_slobodneucionice">Slobodne učionice</string>
+    <string name="title_activity_kalendarfpz">KalendarFPZ</string>
+    <string name="title_activity_web_reader">Jelovnik</string>
+    <string name="title_activity_autobus_zet">Zet-autobus</string>
+    <string name="title_activity_glavnastranica">Pretraživanje po predmetu</string>
+
+</resources>

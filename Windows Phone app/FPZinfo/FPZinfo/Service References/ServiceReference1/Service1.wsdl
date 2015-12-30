@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://fpzinfo.somee.com/WcfService3/WcfService3/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://fpzinfo.somee.com/WcfService3/WcfService3/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://fpzinfo.somee.com/WcfService3/WcfService3/Service1.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://fpzinfo.somee.com/WcfService3/WcfService3/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/WcfService3" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_HelloWorld_InputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="IService1_HelloWorld_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDatabaseString_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDatabaseString" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDatabaseString_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDatabaseStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ReadWrite_Image_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReadWrite_Image" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ReadWrite_Image_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReadWrite_ImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Nazocnost_profesora_InputMessage">
+    <wsdl:part name="parameters" element="tns:Nazocnost_profesora" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Nazocnost_profesora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Nazocnost_profesoraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Konzultacije_InputMessage">
+    <wsdl:part name="parameters" element="tns:Konzultacije" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Konzultacije_OutputMessage">
+    <wsdl:part name="parameters" element="tns:KonzultacijeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAvailableRoom_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableRoom" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetAvailableRoom_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAvailableRoomResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNastavnikFromDatabase_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNastavnikFromDatabase" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNastavnikFromDatabase_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNastavnikFromDatabaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Populacijasrodnihprofesora_InputMessage">
+    <wsdl:part name="parameters" element="tns:Populacijasrodnihprofesora" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Populacijasrodnihprofesora_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PopulacijasrodnihprofesoraResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Spec_konzultacijeeeeee_InputMessage">
+    <wsdl:part name="parameters" element="tns:Spec_konzultacijeeeeee" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Spec_konzultacijeeeeee_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Spec_konzultacijeeeeeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPredmetFromDatabase_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPredmetFromDatabase" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPredmetFromDatabase_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPredmetFromDatabaseResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/HelloWorld" message="tns:IService1_HelloWorld_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/HelloWorldResponse" message="tns:IService1_HelloWorld_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDatabaseString">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDatabaseString" message="tns:IService1_GetDatabaseString_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDatabaseStringResponse" message="tns:IService1_GetDatabaseString_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReadWrite_Image">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ReadWrite_Image" message="tns:IService1_ReadWrite_Image_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ReadWrite_ImageResponse" message="tns:IService1_ReadWrite_Image_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Nazocnost_profesora">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Nazocnost_profesora" message="tns:IService1_Nazocnost_profesora_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Nazocnost_profesoraResponse" message="tns:IService1_Nazocnost_profesora_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Konzultacije">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Konzultacije" message="tns:IService1_Konzultacije_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/KonzultacijeResponse" message="tns:IService1_Konzultacije_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableRoom">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetAvailableRoom" message="tns:IService1_GetAvailableRoom_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetAvailableRoomResponse" message="tns:IService1_GetAvailableRoom_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNastavnikFromDatabase">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNastavnikFromDatabase" message="tns:IService1_GetNastavnikFromDatabase_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNastavnikFromDatabaseResponse" message="tns:IService1_GetNastavnikFromDatabase_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Populacijasrodnihprofesora">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Populacijasrodnihprofesora" message="tns:IService1_Populacijasrodnihprofesora_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/PopulacijasrodnihprofesoraResponse" message="tns:IService1_Populacijasrodnihprofesora_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Spec_konzultacijeeeeee">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Spec_konzultacijeeeeee" message="tns:IService1_Spec_konzultacijeeeeee_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Spec_konzultacijeeeeeeResponse" message="tns:IService1_Spec_konzultacijeeeeee_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPredmetFromDatabase">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPredmetFromDatabase" message="tns:IService1_GetPredmetFromDatabase_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPredmetFromDatabaseResponse" message="tns:IService1_GetPredmetFromDatabase_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/IService1/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDatabaseString">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDatabaseString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReadWrite_Image">
+      <soap:operation soapAction="http://tempuri.org/IService1/ReadWrite_Image" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Nazocnost_profesora">
+      <soap:operation soapAction="http://tempuri.org/IService1/Nazocnost_profesora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Konzultacije">
+      <soap:operation soapAction="http://tempuri.org/IService1/Konzultacije" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAvailableRoom">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetAvailableRoom" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNastavnikFromDatabase">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNastavnikFromDatabase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Populacijasrodnihprofesora">
+      <soap:operation soapAction="http://tempuri.org/IService1/Populacijasrodnihprofesora" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Spec_konzultacijeeeeee">
+      <soap:operation soapAction="http://tempuri.org/IService1/Spec_konzultacijeeeeee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPredmetFromDatabase">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPredmetFromDatabase" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://fpzinfo.somee.com/WcfService3/WcfService3/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

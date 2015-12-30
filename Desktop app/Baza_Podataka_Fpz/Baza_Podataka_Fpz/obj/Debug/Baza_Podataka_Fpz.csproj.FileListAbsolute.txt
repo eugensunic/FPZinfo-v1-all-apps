@@ -1,0 +1,34 @@
+C:\Users\eugen\Desktop\Baza_Podataka_Fpz\Baza_Podataka_Fpz\bin\Debug\Baza_Podataka_Fpz.exe.config
+C:\Users\eugen\Desktop\Baza_Podataka_Fpz\Baza_Podataka_Fpz\bin\Debug\Baza_Podataka_Fpz.exe
+C:\Users\eugen\Desktop\Baza_Podataka_Fpz\Baza_Podataka_Fpz\bin\Debug\Baza_Podataka_Fpz.pdb
+C:\Users\eugen\Desktop\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Form1.resources
+C:\Users\eugen\Desktop\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Properties.Resources.resources
+C:\Users\eugen\Desktop\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.csproj.GenerateResource.Cache
+C:\Users\eugen\Desktop\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.exe
+C:\Users\eugen\Desktop\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.pdb
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\bin\Debug\Baza_Podataka_Fpz.exe.config
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.exe
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.pdb
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\bin\Debug\Baza_Podataka_Fpz.exe
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\bin\Debug\Baza_Podataka_Fpz.pdb
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.csprojResolveAssemblyReference.cache
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Form1.resources
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Properties.Resources.resources
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.csproj.GenerateResource.Cache
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\bin\Debug\itextsharp.xml
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Form2.resources
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Form3.resources
+C:\Users\eugen\Desktop\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Form4.resources
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\bin\Debug\Baza_Podataka_Fpz.exe.config
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.exe
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.pdb
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\bin\Debug\Baza_Podataka_Fpz.exe
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\bin\Debug\Baza_Podataka_Fpz.pdb
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\bin\Debug\itextsharp.xml
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.csprojResolveAssemblyReference.cache
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Form1.resources
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Form2.resources
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Form3.resources
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Form4.resources
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.Properties.Resources.resources
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Baza_Podataka_Fpz\Baza_Podataka_Fpz\obj\Debug\Baza_Podataka_Fpz.csproj.GenerateResource.Cache

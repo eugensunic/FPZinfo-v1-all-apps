@@ -1,0 +1,9 @@
+C:\Users\eugen\Desktop\C# projects\Fpz_simulation\Fpz_simulation\bin\Fpz_simulation.dll
+C:\Users\eugen\Desktop\C# projects\Fpz_simulation\Fpz_simulation\bin\Fpz_simulation.pdb
+C:\Users\eugen\Desktop\C# projects\Fpz_simulation\Fpz_simulation\bin\AjaxControlToolkit.dll
+C:\Users\eugen\Desktop\C# projects\Fpz_simulation\Fpz_simulation\obj\Debug\Fpz_simulation.csprojResolveAssemblyReference.cache
+C:\Users\eugen\Desktop\C# projects\Fpz_simulation\Fpz_simulation\obj\Debug\Fpz_simulation.dll
+C:\Users\eugen\Desktop\C# projects\Fpz_simulation\Fpz_simulation\obj\Debug\Fpz_simulation.pdb
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Fpz_simulation\Fpz_simulation\obj\Debug\Fpz_simulation.csprojResolveAssemblyReference.cache
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Fpz_simulation\Fpz_simulation\obj\Debug\Fpz_simulation.dll
+I:\Eugen-PC(backup-12.08.2015)\C# projects\Fpz_simulation\Fpz_simulation\obj\Debug\Fpz_simulation.pdb

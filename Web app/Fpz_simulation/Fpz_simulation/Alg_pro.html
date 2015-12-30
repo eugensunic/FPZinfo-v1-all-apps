@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Algoritmi i programiranje</title>
+
+<style>
+
+body{      background-image:url('Images/pozadina_pic.jpg');
+           background-size:cover;  
+           background-repeat:repeat-y;
+		   position:static;
+		  }
+#firstdiv                         /*to je ovaj crveni blok*/
+             {
+              width:20cm;
+              height:100cm;
+              background-color:brown;  
+			  border-radius:10px;
+              box-shadow: 10px 10px 10px #888888;
+			  position:relative;
+              top:80px;
+              left:15.7cm;
+			
+			
+			 
+              }
+			  
+#seconddiv       /* Skroz gornji header block sivi */
+              {
+  
+  border:3px solid green;
+ 
+  background:#dddddd;
+  left:13cm;
+  width:25cm;
+  bottom:100cm;
+  position:relative;
+  text-align:center;
+  box-shadow: 10px 10px 10px #888888;
+  border-radius:50px;
+  
+              }   
+#dimage
+{
+   position:relative;
+   left:5cm;
+   bottom:100cm;
+}
+
+#header
+{
+   position:relative;
+   top:0.1cm;
+   font-family:Arial,Helvetica,sans-serif;
+   
+}
+
+a:hover{                   /*na ovo idovi nejdu tak lako vidjet zas*/ 
+background-color:green;
+border-radius:10px;
+}
+
+#heading_inside_box {
+         text-indent:12px;
+		 text-decoration:underline;
+		 font-size:20px;
+}		
+#text_inside_box
+{
+         text-indent:12px;
+		 font-size:15px;
+		 color:#3399FF;
+}
+#divlist 
+{
+   position:relative;
+   bottom:100cm;
+   left:8cm;
+}
+#lielement 
+{
+   box-shadow: 10px 10px 10px #888888;
+}
+
+		
+
+</style>
+</head>
+<body>
+
+<div id="firstdiv">
+<p id="heading_inside_box">Ispitni rokovi(zadatci i rješenja) </p>
+<h3>1. Napišite program koji izračunava drugu katetu ukoliko su hipotenuza i <br>
+prva kateta poznate(koristiti klasu Math.)</h3> <h4>Riješenje:</h4>
+<p id="text_inside_box">
+static void Main(string[] args) <br>
+{ <br>
+int a = 4; // pretpostavka jel si napiso da je poznata jedna kateta<br>
+int c = 7; // hipotenuza poznata<br>
+double b = Math.Sqrt(Math.Pow(c, 2) - Math.Pow(a, 2)); // formula za nepoznatu katetu...<br>
+Console.WriteLine("Iznos druge katete iznosi "+ b); // ispis vrijednosti katete<br>
+Console.ReadLine(); // da se program ne zatvori do pritiska enter tipke<br>
+}</p>
+
+<h3>2. Napisati program koji učitava stranice jednakostraničnog trokuta i ispisuje njegov opseg i površinu</h3>
+<p id="text_inside_box">
+static void Main(string[] args) <br>
+{<br>
+Console.Write("Upiši duljinu stranice a: ");<br>
+double a = Convert.ToDouble(Console.ReadLine());<br>
+
+
+double povrsina = ((Math.Pow(a, 2)) * Math.Sqrt(3)) / 4;<br>
+double opseg = 3 * a; <br>
+Console.WriteLine("Povrsina jednakostraničnig trokuta je: " + povrsina); <br>
+Console.WriteLine("Opseg jednakostraničnig trokuta je: " + opseg); <br>
+
+Console.ReadKey(); <br>
+} 
+</p>
+<h3>3. Napisati program gdje korisnik preko tipkovnice unosi 3 broja te na temelju njih izracunajte<br>
+poluopseg te površinu trokuta preko heronove formule</h3>
+<p id="text_inside_box">
+static void Main(string[] args) <br>
+{ <br>
+Console.WriteLine("Unesite prvi broj tj. stranicu a:"); // reda radi <br>
+int a = Convert.ToInt32(Console.ReadLine()); <br>
+Console.WriteLine("Unesite drugi broj tj. stranicu b:"); <br>
+int b = Convert.ToInt32(Console.ReadLine()); <br>
+Console.WriteLine("Unesite treci broj tj. stranicu c:"); <br>
+int c = Convert.ToInt32(Console.ReadLine()); <br>
+
+double s = (a + b + c) / 2; // double jer postoji mogucnost dobivanaja decimalnog zbog djeljenja! <br>
+double S= Math.Sqrt(s*(s-a)*(s-b)*(s-c)); // obavezno double jel math klasa ne prihavaca int <br>
+Console.WriteLine("Povrsina preko heronove formule je "+S); <br>
+Console.ReadLine(); <br>
+}
+</p>
+<h3> 4.Napišite program koji učitava 100 slučajnih brojeva u rasponu od 500-1000 <br>
+nakon toga nađite najmanji broj od tih 100 brojeva te ga ispišite <br>
+Slučajno izgenerirae brojeve na kraju treba prikazati ali u obrnutom redosljedu.</h3>
+<p id="text_inside_box">
+static void Main(string[] args) <br>
+{ <br>
+
+Random Broj = new Random(); <br>
+int z= Broj.Next(500, 1000); <br>
+int[] Polje = new int[100];  <br>
+int min = 1000; <br>
+
+for ( int i = 0; i < 100; i++)  <br>
+{ <br>
+
+Polje[i] = Broj.Next(500,1000); <br>
+Console.WriteLine(Polje[i]);  <br>
+
+if (Polje[i] < min) <br>
+{ <br>
+min = Polje[i]; <br>
+} <br>
+
+} <br>
+
+Console.WriteLine("Najmanji clan polja je " + min); <br>
+
+Console.WriteLine("----------------------------------------------"); <br>
+Console.WriteLine("Sljede izokrenuta polja"); <br>
+for (int j = Polje.Length-1; j >=0; j--)  <br>
+{ <br>
+
+Console.WriteLine(Polje[j]); <br>
+} <br>
+
+Console.ReadLine(); <br>
+} <br>
+
+</p>
+<h3> 5.Napisite program koji ucitava 2 cjela broja te zatim definira granice.<br>
+(Primjer: učitani brojevi 3,7,,, donja granica je 3, gornja granica je 7)<br>
+ Zatim program ispisuje brojeve koji su djeljivi sa 3 ili sa 5 u tom rasponu<br>
+ Ukoliko je prvi uneseni broj veci od drugog, preokrenuti poredak da prvi uvijek <br>
+ bude manji a drugi uneseni veci(zbog granica)
+ </h3>
+<p id="text_inside_box">
+static void Main(string[] args) <br>
+{ <br>
+Console.WriteLine("Upisite prvi broj za interval"); <br>
+
+int a = int.Parse(Console.ReadLine());  <br>
+Console.WriteLine("Upisite kranjni broj za interval"); <br>
+
+int b = int.Parse(Console.ReadLine()); <br>
+Console.WriteLine("Interval je [" + a + "," + b + "]"); <br>
+if (a > b)  <br>
+{     <br>
+int x = b; <br>
+b = a; <br>
+a = x;  <br>
+
+}   <br>
+while (a < b)  <br>
+{              <br>
+
+if ((a % 3 == 0))  <br>
+{
+Console.WriteLine("broj je djeljiv sa 3 " + a); <br>
+
+}   <br>
+else if ((a % 5 == 0))  <br>
+{                         <br>
+Console.WriteLine("broj je djeljiv sa 5 " + a);  <br>
+}   <br>
+a++;   <br>
+}  <br>
+Console.ReadLine();  <br>
+
+} <br>
+
+</p>
+<h3>6. Napišite program koji generira 22 slucajna broja u rasponu od 10-25 <br>
+ te nakon toga ispisuje tih 22 broja ali prije brise broj na indeksu(adresi)<br>
+ broj 12.
+ </h3>
+ <p id="text_inside_box">
+ static void Main(string[] args) <br>
+{ <br>
+
+Random rnd = new Random(); // instanca klase random , kreiranje klase<br>
+List<int> Lista = new List<int>(); // sintaksa za listu<br>
+for (int i = 0; i < 22; i++) // punjenje liste sa 22 elemenata <br>
+{ <br>
+Lista.Add(rnd.Next(10,25)); // dodavanje 22 random brojeva u listu sa naredbom . Next(raspon) <br>
+} <br>
+
+foreach (int a in Lista) <br>
+{ <br>
+Console.WriteLine(a); <br>
+} // ispis tih 22 broja  <br>
+Console.WriteLine("----------------------------"); // cist radi preglednosti<br>
+Lista.RemoveAt(12); // brisanje elementa na indexu 12 odnosno brisanje 13-tog elementa u listi. <br>
+foreach (int a in Lista) <br>
+{  <br>
+Console.WriteLine(a); <br>
+} // ispis tih 22 broja bez 13-tog odnosno bez elemnta indexa 12. <br>
+Console.ReadLine(); <br>
+
+
+}
+ </p>
+ <h3> 7.Napišite program koji unosi dvije točke (Unos jedne točke podrazumjeva <br>
+ učitavanje x kordinate i y kordinate).Nakon unosa tih dviju točaka provjeriti<br>
+ leže li obje točke na pravcu ili ne leže(Ispisati poruku na ekran ovisno o <br>
+ poziciji točaka.
+ 
+ </h3>
+ <p id="text_inside_box">
+ static void Main(string[] args)<br>
+{ <br>
+int x1, y1, x2, y2, x3, y3; // moze int moze double svejedno <br>
+Console.WriteLine("Unesite prvu tocku x1,y1"); <br>
+x1 = Convert.ToInt32(Console.ReadLine()); <br>
+y1 = Convert.ToInt32(Console.ReadLine()); <br>
+Console.WriteLine("Unesite drugu tocku x2,y2"); <br>
+x2 = Convert.ToInt32(Console.ReadLine()); <br>
+y2 = Convert.ToInt32(Console.ReadLine()); <br>
+Console.WriteLine("Unesite trecu tocku x3,y3"); <br>
+x3 = Convert.ToInt32(Console.ReadLine()); <br>
+y3 = Convert.ToInt32(Console.ReadLine()); <br>
+
+if ((x2 - x1 / x3 - x1) == (y2 - y1 / y3 - y1)) // tipa ak postoji pravac y=x, a tocke su x1=2,x2=3,x3=4; y1=2;y2=3,y3=4; ak je jednakost (true) znaci da leze <br>
+{ <br>
+Console.WriteLine("sve tri unesene tocke leze na istom pravcu"); <br>
+} <br>
+else  <br>
+{ <br>
+Console.WriteLine("Ne leze sve tri tocke na istom pravcu"); <br>
+} <br>
+
+Console.ReadLine(); <br>
+}
+ </p>
+ <p id="heading_inside_box">Riješeni zadaci s Metodama! </p>
+ <h3> 1.Napravite program koji vraca umnožak dvaju unesenih brojeva</h3>
+ <p id="text_inside_box">
+ static void Main(string[] args) <br>
+{ <br>
+int brojA = 10; <br>
+int brojB = 12; <br>
+Console.WriteLine(Umnozak(brojA, brojB)); <br>
+Console.ReadLine(); <br>
+
+
+
+}<br>
+private static int Umnozak(int a, int b)  <br>
+{ <br>
+return a * b; <br>
+} <br>
+</p>
+
+<h3>1.ZADATAK 2.način </h3>
+ 
+<p id="text_inside_box"
+static void Main(string[] args) <br>
+{  <br>
+int brojA = 10; <br>
+int brojB = 12; <br>
+int Rezultat = Umnozak(brojA, brojB); <br>
+Console.WriteLine(Rezultat);  <br>
+Console.ReadLine(); <br>
+
+
+
+}
+ </p>
+ </div>
+
+<div id ="seconddiv"><h2 id="header"> Algoritmi i programiranje</h2> </div>
+<div id="dimage">
+<a href="#"><img src="Images/back-icon.png" alt="Vracanje na pocetak"></a>
+</div>
+
+<div id="divlist">
+<ul>
+<li><p><a href="#">Rijeseni zadaci</a></p></li>
+<li><p><a href="Alg_pronerijeseni.html">NeRijeseni zadaci</a></p></li>
+</ul>
+
+</div>
+
+
+</body>
+
+</html>
